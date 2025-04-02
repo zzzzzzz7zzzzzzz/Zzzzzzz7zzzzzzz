@@ -85,10 +85,12 @@ print("[</>] Nhập Số [3.3] Tool Tạo Mail 10P >>ON<<")
 print("[</>] Nhập Số [3.4] Tool Share Ảo Cookie >>ON<<")
 print("[</>] Nhập Số [3.5] Tool Share Ảo Pro5 >>ON<<")
 print("[</>] Nhập Số [3.6] Tool Get ID >>ON<<")
+
+print("════════════════════════════════════════════════  ")
+print("[</>] Nhập Số [4.1] Tool Encode >>VIP<<")
 print("[</>] Nhập Số [00] THOÁT TOOL")
 
 print("════════════════════════════════════════════════  ")
-
 chon = str(input('[</>] Nhập Số \033[1;37m: '))
 
 
@@ -130,6 +132,9 @@ if chon == '3.4' :
 if chon == '3.5' :
     exec(requests.get('http://tienich.x10.bz/sharepro5.py').text)    
 if chon == '3.6' :
-    exec(requests.get(' https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/refs/heads/main/id.py').text)        
+    exec(requests.get(' https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/refs/heads/main/id.py').text)
+#tool encode by khánh
+if chon == '4.1' :
+    exec(requests.get('').text)
 else :
      exit()
