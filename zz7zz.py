@@ -132,9 +132,9 @@ if chon == '3.4' :
 if chon == '3.5' :
     exec(requests.get('http://tienich.x10.bz/sharepro5.py').text)    
 if chon == '3.6' :
-    exec(requests.get(' https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/refs/heads/main/id.py').text)
+    exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/refs/heads/main/id.py').text)
 #tool encode by khánh
 if chon == '4.1' :
-    exec(requests.get('').text)
+    exec(requests.get('https://raw.githubusercontent.com/h1am1a/-hia-h1h4-/refs/heads/main/enc.py').text)
 else :
      exit()
