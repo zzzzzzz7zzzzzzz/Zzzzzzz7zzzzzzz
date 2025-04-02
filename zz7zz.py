@@ -87,6 +87,9 @@ print("[</>] Nhập Số [3.5] Tool Share Ảo Pro5 >>ON<<")
 print("[</>] Nhập Số [3.6] Tool Get ID >>ON<<")
 
 print("════════════════════════════════════════════════  ")
+print ("╔═══════════════════╗")
+print ("║    TOOL ENCODE    ║")
+print ("╚═══════════════════╝")
 print("[</>] Nhập Số [4.1] Tool Encode >>VIP<<")
 print("[</>] Nhập Số [00] THOÁT TOOL")
 
