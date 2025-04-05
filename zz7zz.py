@@ -91,6 +91,12 @@ print ("╔═══════════════════╗")
 print ("║    TOOL ENCODE    ║")
 print ("╚═══════════════════╝")
 print("[</>] Nhập Số [4.1] Tool Encode >>VIP<<")
+
+print("════════════════════════════════════════════════  ")
+print ("╔═══════════════════╗")
+print ("║    TOOL NGHỊCH    ║")
+print ("╚═══════════════════╝")
+print("[</>] Nhập Số [5.1] Tool Tài Xỉu >>ON<<")
 print("[</>] Nhập Số [00] THOÁT TOOL")
 
 print("════════════════════════════════════════════════  ")
@@ -139,5 +145,8 @@ if chon == '3.6' :
 #tool encode by khánh
 if chon == '4.1' :
     exec(requests.get('https://raw.githubusercontent.com/h1am1a/-hia-h1h4-/refs/heads/main/enc.py').text)
+# nghịch tool    
+if chon == '5.1' :
+    exec(requests.get('https://raw.githubusercontent.com/h1am1a/-hia-h1h4-/refs/heads/main/tx.py').text)    
 else :
      exit()
